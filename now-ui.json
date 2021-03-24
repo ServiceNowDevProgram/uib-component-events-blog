@@ -1,0 +1,23 @@
+{
+	"components": {
+	    "x-85636-props-demo": {
+	        "innerComponents": [],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "Events Demo",
+				"icon": "document-outline",
+				"description": "Demo for firing events",
+				"category": "primitives"
+			},
+			"actions": [
+				{
+					"description": "Fired from button",
+					"label": "Button click event",
+					"action": "EVENT_FIRED",
+					"payload": []
+				}
+			]
+	    }
+	},
+	"scopeName": "x_85636_btt_prop_1"
+}

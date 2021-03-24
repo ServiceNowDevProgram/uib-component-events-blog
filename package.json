@@ -1,0 +1,31 @@
+{
+	"name": "@btt/props-demo",
+	"version": "0.0.1",
+	"private": false,
+	"description": "",
+	"keywords": [
+		"ServiceNow",
+		"Now Experience UI Component",
+		"@btt/props-demo"
+	],
+	"readme": "./README.md",
+	"engines": {
+		"node": ">=8.6.0",
+		"npm": ">=5.3.0"
+	},
+	"module": "src/index.js",
+	"dependencies": {
+		"@servicenow/cli-archetype": "19.0.0",
+		"@servicenow/cli-component-archetype": "19.0.0",
+		"@servicenow/library-translate": "quebec",
+		"@servicenow/now-button": "^19.8.2-ecd",
+		"@servicenow/sass-kit": "quebec",
+		"@servicenow/sass-theme": "quebec",
+		"@servicenow/ui-core": "quebec",
+		"@servicenow/ui-renderer-snabbdom": "quebec"
+	},
+	"devDependencies": {
+		"@servicenow/cli-archetype-dev": "19.0.0",
+		"@servicenow/cli-component-archetype-dev": "19.0.0"
+	}
+}
